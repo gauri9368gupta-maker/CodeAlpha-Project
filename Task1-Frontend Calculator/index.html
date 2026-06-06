@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator - Codealpha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent"> <!-- div -->
+        <h1 class="heading">Advanced Calculator</h1>
+        <div class="div1">
+            <div class="box">
+                <input type="text" class="input calculation_area" readonly>
+            </div>
+            <div class="history-controls">
+                <button class="history-btn" onclick="toggleHistory()">History</button>
+                <button class="clear-history-btn" onclick="clearHistory()">Clear History</button>
+            </div>
+
+            <div class="history" id="historyBox">
+                <ul class="history-list"></ul>
+            </div>
+            <div class="signs">
+                <button class="clear-btn" onclick="clearValue()">AC</button>
+                <button class="symbol" onclick="percentage()">%</button>
+                <button class="symbol" onclick="showValue('/')">/</button>
+                <button class="symbol" onclick="backspace()">⌫</button>
+            </div>
+
+            <div class="numbers">
+                <button class="number" onclick="showValue('7')">7</button>
+                <button class="number" onclick="showValue('8')">8</button>
+                <button class="number" onclick="showValue('9')">9</button>
+                <button class="symbol" onclick="showValue('*')">x</button>
+            </div>
+
+            <div class="numbers">
+                <button class="number" onclick="showValue('4')">4</button>
+                <button class="number" onclick="showValue('5')">5</button>
+                <button class="number" onclick="showValue('6')">6</button>
+                <button class="symbol" onclick="showValue('-')">-</button>
+            </div>
+
+            <div class="numbers">
+                <button class="number" onclick="showValue('1')">1</button>
+                <button class="number" onclick="showValue('2')">2</button>
+                <button class="number" onclick="showValue('3')">3</button>
+                <button class="symbol" onclick="showValue('+')">+</button>
+            </div>
+
+            <div class="numbers">
+                <button class="number" onclick="showValue('00')">00</button>
+                <button class="number" onclick="showValue('0')">0</button>
+                <button class="number" onclick="showValue('.')">.</button>
+                <button class="symbol" onclick="toggleSign()">+/-</button>
+            </div>
+
+            <div class="end">
+                <b class="last" onclick="calculate()">=</b>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
