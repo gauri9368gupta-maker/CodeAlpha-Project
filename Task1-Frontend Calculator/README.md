@@ -42,5 +42,4 @@ This project demonstrates DOM manipulation, event handling, local storage implem
 https://github.com/gauri9368gupta-maker/CodeAlpha-Project
 
 ## Live Demo
-
-https://gauri9368gupta-maker.github.io/CodeAlpha-Project/Task-1-Frontend-Calculator/
+https://gauri9368gupta-maker.github.io/CodeAlpha-Project/Task1-Frontend%20Calculator/
