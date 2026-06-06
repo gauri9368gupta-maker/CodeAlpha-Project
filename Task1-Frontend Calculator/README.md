@@ -37,3 +37,6 @@ This project demonstrates DOM manipulation, event handling, local storage implem
 
 ## Preview 
 ![alt text](image-1.png)
+
+## Github Repository
+https://github.com/gauri9368gupta-maker/CodeAlpha-Project
