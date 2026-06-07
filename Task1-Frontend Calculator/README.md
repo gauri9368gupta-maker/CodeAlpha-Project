@@ -36,7 +36,7 @@ A modern and responsive calculator built using HTML, CSS, and JavaScript. This p
 This project demonstrates DOM manipulation, event handling, local storage implementation, responsive web design, and JavaScript-based calculator logic in a user-friendly interface.
 
 ## Preview 
-![alt text](image-1.png)
+![alt text](image.png)
 
 ## Github Repository
 https://github.com/gauri9368gupta-maker/CodeAlpha-Project
