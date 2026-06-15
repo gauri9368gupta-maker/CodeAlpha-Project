@@ -68,4 +68,4 @@ The project provides a real-world image management system while strengthening co
 https://github.com/gauri9368gupta-maker/CodeAlpha-project
 
 ## Live Link🔗
-https://gauri9368gupta-maker.github.io/CodeAlpha-Project/Task2-Image%20Gallery/
+https://gauri9368gupta-maker.github.io/CodeAlpha-Project/Task2-Image%20Gallery/index.html
