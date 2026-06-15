@@ -58,9 +58,9 @@ The project provides a real-world image management system while strengthening co
 
 ## Preview
 
-![Image Gallery Preview](./images/img1.png)
-![Image Gallery Preview](./images/img2.png)
-![Image Gallery Preview](./images/img3.png)
+![Image Gallery Preview](./Images/img1.png)
+![Image Gallery Preview](Images/img2.png)
+![Image Gallery Preview](images/img3.png)
 ![Image Gallery Preview](./images/img4.png)
 
 
