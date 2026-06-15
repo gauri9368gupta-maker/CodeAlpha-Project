@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+
+      <h1>
+        <i class="fa-regular fa-image"></i>
+        Image Gallery
+      </h1>
+
+      <p>  Upload, view and manage your images </p>
+
+      <input type="file" id="upload" accept="image/*" multiple hidden />
+
+      <button class="upload-btn">  Upload Images  </button>
+
+      <div class="controls">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="search" placeholder="Search images...">
+        </div>
+      </div>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="favorites">Favorites</button>
+<button class="filter-btn" data-filter="recent">Recent</button>
+<button class="filter-btn" data-filter="trash">Trash</button>
+
+</div>
+
+<p class="gallery-count"></p>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+    </section>
+
+    <!-- lightbox -->
+    <div class="lightbox" id="lightbox">
+      <span id="closeBtn">&times;</span>
+      <button id="prevBtn" class="nav-btn prev"> ❮ </button>
+      <img id="lightboxImg">
+      <button id="nextBtn" class="nav-btn next">❯ </button>
+    </div>
+
+  </div>
+<script src="./script.js"></script>
+</body>
+
+</html>
